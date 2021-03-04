@@ -35,9 +35,13 @@ Total time : 23.6ms
 
 Total time : 9.1
 
-- Final Form
+- All without Performance Enhancements
 
-Total time : 15.4ms
+Total time :
+
+- All with Performance Enhancements
+
+Total time :
 
 ## Data Fetching
 
@@ -52,6 +56,26 @@ Total time : 5.6 ms
 - Use Reducer Example
 
 Total time : 6.2ms
+
+- Callback State Example
+
+Total time :
+
+- Callback Reducer Example
+
+Total time :
+
+- Memo Example
+
+Total time :
+
+- All without Performance Enhancements
+
+Total time :
+
+- All with Performance Enhancements
+
+Total time :
 
 ## All Together
 

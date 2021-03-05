@@ -37,11 +37,11 @@ Total time : 9.1
 
 - All without Performance Enhancements
 
-Total time :
+Total time : 21.4ms
 
 - All with Performance Enhancements
 
-Total time :
+Total time : 18.5ms
 
 ## Data Fetching
 

@@ -15,59 +15,38 @@ Steps for Testing Times :
 2. Last Name - there
 3. Submit
 
-- Use State Example
-
-Total time : 22.5ms
-
-- Use Reducer Example
-
-Total time : 19.3ms
-
-- Callback State Example
-
-Total time : 15.4ms
-
-- Callback Reducer Example
-
-Total time : 23.6ms
-
-- Memo Example
-
-Total time : 9.1
-
-- All without Performance Enhancements
-
-Total time : 21.4ms
-
-- All with Performance Enhancements
-
-Total time : 18.5ms
+| Scenario                          | Description | Rendering Time |
+| :-------------------------------- | :---------: | -------------: |
+| useState with Object              |    Title    |         22.5ms |
+| useReducer                        |    Text     |         19.3ms |
+| useCallback with useState         |    Text     |         15.4ms |
+| useCallback with useReducer       |    Text     |         23.6ms |
+| React.memo                        |    Text     |          9.1ms |
+| Without Performance Enhancements  |    Text     |         21.4ms |
+| All with Performance Enhancements |    Text     |         18.5ms |
 
 ## Data Fetching
 
-- Batching Set State
+Steps for Testing Times :
 
-Total time : 5.4 ms
+1. Wait for data to load
 
-- Set State with Object
-
-Total time : 5.6 ms
-
-- Use Reducer Example
-
-Total time : 6.2ms
+| Scenario                   | Description | Rendering Time |
+| :------------------------- | :---------: | -------------: |
+| Batching multiple setState |    Title    |          5.4ms |
+| setState with an Object    |    Text     |          5.6ms |
+| useReducer                 |    Text     |          6.2ms |
 
 ## Form + Data Fetching
+
+Steps for Testing Times :
 
 1. Description - python
 2. Location - new york
 3. Submit
 4. Wait for data to load
 
-- No Performance Optimizations
-
-Total time : 12.6ms
-
-- Performance Optimizations
-
-Total time : 12.2ms
+| Scenario                          | Description | Rendering Time |
+| :-------------------------------- | :---------: | -------------: |
+| Without Performance Optimizations |    Title    |         12.6ms |
+| With Performance Optimizations    |    Text     |         12.2ms |

@@ -57,27 +57,7 @@ Total time : 5.6 ms
 
 Total time : 6.2ms
 
-- Callback State Example
-
-Total time :
-
-- Callback Reducer Example
-
-Total time :
-
-- Memo Example
-
-Total time :
-
-- All without Performance Enhancements
-
-Total time :
-
-- All with Performance Enhancements
-
-Total time :
-
-## All Together
+## Form + Data Fetching
 
 - No Performance Optimizations
 

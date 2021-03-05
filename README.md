@@ -59,6 +59,11 @@ Total time : 6.2ms
 
 ## Form + Data Fetching
 
+1. Description - python
+2. Location - new york
+3. Submit
+4. Wait for data to load
+
 - No Performance Optimizations
 
 Total time : 12.6ms

@@ -10,7 +10,6 @@
 // import NoPerformance from 'containers/together/NoPerformance/index';
 // import Optimized from 'containers/together/Optimized/index';
 // import NoPerformance from 'containers/forms/NoPerformance/index';
-
 import Optimized from 'containers/forms/Optimized/index';
 
 const App = () => (

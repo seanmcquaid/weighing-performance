@@ -15,15 +15,15 @@ Steps for Testing Times :
 2. Last Name - there
 3. Submit
 
-| Scenario                          | Description | Rendering Time |
-| :-------------------------------- | :---------: | -------------: |
-| useState with Object              |    Title    |         22.5ms |
-| useReducer                        |    Text     |         19.3ms |
-| useCallback with useState         |    Text     |         15.4ms |
-| useCallback with useReducer       |    Text     |         23.6ms |
-| React.memo                        |    Text     |          9.1ms |
-| Without Performance Enhancements  |    Text     |         21.4ms |
-| All with Performance Enhancements |    Text     |         18.5ms |
+| Scenario                          |                                       Description                                       | Rendering Time |
+| :-------------------------------- | :-------------------------------------------------------------------------------------: | -------------: |
+| useState with an Object           |                      Using an object with useState to manage state                      |         22.5ms |
+| useReducer                        |                     Using a reducer with useReducer to manage state                     |         19.3ms |
+| useState + useCallback            |           Wrapping the onChange functions utilizing useState with useCallback           |         15.4ms |
+| useReducer + useCallback          | Wrapping the onChange functions utilizing the dispatch from useReducer with useCallback |         23.6ms |
+| React.memo                        |             Wrapping some components with React.memo to reduce re-rendering             |          9.1ms |
+| Without Performance Enhancements  |                       Not utilizing any performance enhancements                        |         21.4ms |
+| All with Performance Enhancements |                       Utilizing multiple performance enhancements                       |         18.5ms |
 
 ## Data Fetching
 

@@ -31,11 +31,11 @@ Steps for Testing Times :
 
 1. Wait for data to load
 
-| Scenario                   | Description | Rendering Time |
-| :------------------------- | :---------: | -------------: |
-| Batching multiple setState |    Title    |          5.4ms |
-| setState with an Object    |    Text     |          5.6ms |
-| useReducer                 |    Text     |          6.2ms |
+| Scenario                         |                     Description                      | Rendering Time |
+| :------------------------------- | :--------------------------------------------------: | -------------: |
+| Batching multiple setState hooks | Calling multiple setState hooks in the same function |          5.4ms |
+| useState with an Object          |    Using an object with useState to manage state     |          5.6ms |
+| useReducer                       |   Using a reducer with useReducer to manage state    |          6.2ms |
 
 ## Form + Data Fetching
 
@@ -46,7 +46,7 @@ Steps for Testing Times :
 3. Submit
 4. Wait for data to load
 
-| Scenario                          | Description | Rendering Time |
-| :-------------------------------- | :---------: | -------------: |
-| Without Performance Optimizations |    Title    |         12.6ms |
-| With Performance Optimizations    |    Text     |         12.2ms |
+| Scenario                          |                 Description                 | Rendering Time |
+| :-------------------------------- | :-----------------------------------------: | -------------: |
+| Without performance enhancements  | Not utilizing any performance enhancements  |         12.6ms |
+| All with performance enhancements | Utilizing multiple performance enhancements |         12.2ms |
